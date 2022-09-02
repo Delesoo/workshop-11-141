@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: #acacac;
+    padding: 30px;
+}
+header ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul a{
+    padding: 5px 10px;
+    color: #000000;
+}
+.light{
+    width: 500px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.light .button{
+    width: 100px;
+    padding: 15px;
+    background-color: #acacac;
+    text-align: center;
+}
+.light .button:hover, .universal:hover{
+    cursor: pointer;
+    background-color: #848383;
+}
+.light .bulb{
+    width: 250px;
+}
+.light .bulb img{
+    width: 100%;
+}
+.universal{
+    width: 500px;
+    padding: 15px;
+    text-align: center;
+    background-color: #acacac;
+    margin: 20px auto;
+}
+
+.parolebi{
+    width: 500px;
+    margin: 50px auto;
+}
+.parolebi input{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+}
+.parolebi .check{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #000000;
+}
+.parolebi .check:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
